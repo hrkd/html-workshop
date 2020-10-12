@@ -1,0 +1,24 @@
+div {
+  margin: 30px;
+}
+
+.container {
+  border: 1px solid blue;
+}
+
+.item {
+  border: 1px solid red;
+  padding: 30px;
+}
+
+/* 幅の上限が480pxの場合 = 480px以下 の端末やウインドウ */
+@media screen and (max-width: 480px) {
+  /*該当する場合だけこの中のスタイルが反映されます*/
+  /* この内部に書かれたスタイルを便宜上、スマートフォンで見るレイアウトとします。 */
+}
+
+/* 幅の下限が480pxの場合 = 481px以上 の端末やウインドウ*/
+@media screen and (min-width: 480px) {
+  /*該当する場合だけこの中のスタイルが反映されます*/
+  /* この内部に書かれたスタイルを便宜上、PCで見るレイアウトとします。 */
+}
